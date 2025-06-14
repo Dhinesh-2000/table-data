@@ -1,4 +1,4 @@
-/* The main table box */
+
 .my-table {
   background: white;
   border-radius: 8px;
@@ -7,7 +7,6 @@
   position: relative;
 }
 
-/* Search and filter area */
 .filter-area {
   padding: 20px;
   border-bottom: 1px solid #eee;
@@ -49,7 +48,6 @@
   flex: 1;
 }
 
-/* Column show/hide buttons */
 .column-buttons {
   padding: 15px 20px;
   background: #f8f9fa;
@@ -66,7 +64,7 @@
   cursor: pointer;
 }
 
-/* The actual table */
+
 .table-area {
   overflow-x: auto;
 }
@@ -145,7 +143,7 @@ tr:hover {
   background: white;
 }
 
-/* Loading screen */
+
 .loading-screen {
   position: absolute;
   top: 0;
@@ -172,7 +170,7 @@ tr:hover {
   100% { transform: rotate(360deg); }
 }
 
-/* No data message */
+
 .no-data {
   padding: 40px;
   text-align: center;
@@ -180,7 +178,7 @@ tr:hover {
   font-size: 16px;
 }
 
-/* Make it work on phones */
+
 @media (max-width: 768px) {
   .filter-row {
     flex-direction: column;
